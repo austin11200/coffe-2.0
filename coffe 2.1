@@ -1,0 +1,36 @@
+import time 
+print ("time import done")
+print ("welcome to fase coffe ")
+name = input ("want is your name ")
+if name == "ben" or name == "max":
+  print ("are you evil?")
+  evil = input()
+  if evil == "yes":
+    print ("get out now " + name + "!!!!!!!!!!!")
+    exit ("code ened by the name " + name)
+  else :
+    print ("go to know that you are not evil!!")
+else:
+  print ("walcome here " + name + ".")
+print ("wnat do you whant 4.coffe 3.black coffe 2.expersow 1.water")
+oerder = input ("type the number of of the oder you want ")
+if oerder == "1":
+  print ("ok you water will be here soon")
+  time.sleep(3)
+  print ("here is your water and it is $5")
+elif oerder == "2":
+  
+  print ("ok i wil get your expeeso and it will be here soon")
+  time.sleep(6)
+  print ("ok your exeperso is here and it is $6")
+elif oerder == "3":
+  print ("ok i will get you your black coffe ")
+  time.sleep (7)
+  print ("here is your black coffe and it is $10")
+elif oerder == "4":
+  print ("ok i will get your coffe")
+  time.sleep(3)
+  print ("ok here is your coffe and it is $6")
+else :
+  print ("sory we do not have " + oerder + ".")
+  
